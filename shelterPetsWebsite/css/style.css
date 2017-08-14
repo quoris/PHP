@@ -1,0 +1,569 @@
+/*****************Background base*******************/
+body {
+    /*background-image: url(/images/fon.jpg);*/
+    font-size: 14px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+#heightWeightPage{
+    background:url(/images/base.jpg);
+    margin:auto; /*выравнивание по середине экрана*/
+    padding:auto; /*выравнивание по середине экрана*/
+    height:100%; /*1105*/
+    width:1100px;
+}
+
+#header{
+    background:url(/images/header.jpg);
+    background-repeat: no-repeat;
+    height:265px;
+    width:1100px;
+    position: relative;
+}
+.backgroundMenuText{
+    background:url(/images/background_menu_text.jpg);
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 1100px;
+    position: absolute;
+    bottom:0;
+}
+
+#body{
+    background:url(/images/body.jpg);
+    background-repeat: no-repeat;
+    height:100%; /*622px*/
+    width:1100px;
+    min-height: 622px;
+}
+
+#footer{
+    background:url(/images/footer.jpg);
+    background-repeat: no-repeat;
+    height:218px;
+    width:1100px;
+    position: relative;
+}
+/*****************Background base*******************/
+
+
+/*******************************************Sait's elements********************************************/
+
+/**************************Шаблон********************/
+ul.menu{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    margin: -0.7% 0% 0% 8%;
+}
+ul.menu li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 15px;
+    font-size: 28px;
+    font-family: CURSIVE;
+}
+
+.registration{
+    margin: -1% 0% 0% 80%;
+    font-size: 20px;
+    font-family: CURSIVE; /*Хороший шрифт*/
+}
+.whoEntered{
+    text-align: center;
+    margin: -1% 0% 0% 75%;
+    font-size: 20px;
+    font-family: CURSIVE; /*Хороший шрифт*/
+
+}
+.adminEntered{
+    text-align: center;
+    margin: -1% 0% 0% 75%;
+    font-size: 20px;
+    font-family: CURSIVE; /*Хороший шрифт*/
+}
+
+.whoEnteredButtons{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.whoEnteredButtons:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.whoEnteredButtons:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+.adminControlButtons{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.adminControlButtons:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.adminControlButtons:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+
+footer{
+    font-size: 25px;
+    font-family: CURSIVE;
+    margin: 0% 0% 0% 20%;
+    position: absolute;
+    bottom:0;
+}
+/**************************Шаблон********************/
+
+/**************************Главная********************/
+.mainH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnMainPage{
+    font-size: 20px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.onManePage{
+    width: 40%;
+    float:left; /* Выравнивание по левому краю */
+    margin: 10px 35px 10px 0px;
+}
+
+/**************************Главная********************/
+
+/**************************Питомцы********************/
+ul.filter{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.filter li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.animalsH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnAnimalsPage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.inputAnimalsInfo{
+    font-size: 20px;
+}
+
+/* Для все input и textarea*/
+select:hover, input:hover, input:focus, textarea:hover, textarea:focus {
+    border-color: #C9C9C9;
+
+    box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px;
+}
+
+.findAnimalButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.findAnimalButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.findAnimalButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+
+.enterParametrsToFind{
+    text-align: center;
+    border: 4px double black;
+    padding: 10px;
+}
+
+.showedAnimal{
+    border: 4px double black;
+    padding: 10px;
+    margin: 3% 0% 3% 0%;
+}
+
+.left{
+    float: left;
+    margin: -0.9% 1% 1% 1%;
+}
+
+.right{
+    text-align: left;
+    margin-left: 35%;
+}
+
+.addToCartButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.addToCartButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.addToCartButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+.animalInfo, .adminCannotAddAnimals, .userAddAnimal, .alreadyAdded{
+    font-weight: 600;
+}
+
+.adminCannotAddAnimals{
+    margin: 0% 0% 0% 15%;
+}
+
+.alreadyAdded{
+    margin: 0% 0% 0% 20%;
+}
+
+.userAddAnimal{
+    margin: 0% 0% 0% 32%;
+}
+/**************************Питомцы********************/
+
+/*********************Я хочу помочь******************/
+.helpH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnHelpPage{
+    font-size: 20px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+/*********************Я хочу помочь******************/
+
+/***********************О приюте*********************/
+.aboutH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnAboutPage{
+    font-size: 20px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+/***********************О приюте*********************/
+
+/***********************Контакты*********************/
+.contactsH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnContactsPage{
+    font-size: 20px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+/***********************Контакты*********************/
+
+/*********************Регистрация********************/
+.textOnRegistrationPage{
+    font-size: 20px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.inputRegInfo{
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0.5% 0% 0% 0%;
+}
+
+.registrationButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.registrationButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.registrationButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+/*********************Регистрация********************/
+
+/************************Вход***********************/
+.textOnEnterPage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.inputEnterInfo{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.enterButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.enterButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.enterButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+/************************Вход***********************/
+
+/**********************Профиль, Редактирование профиля*********************/
+.textOnProfilePage, .textOnEditProfilePage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.profileH1, .editProfileH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.userInfo{
+    font-weight: 600;
+}
+
+.editProfileButton, .saveEditedInfoButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.editProfileButton:hover, .saveEditedInfoButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.editProfileButton:active, .saveEditedInfoButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+.editUserInfo{
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.editedInfo{
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+/**********************Профиль, Редактирование профиля*********************/
+
+/**********************Корзина*********************/
+.textOnCartPage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.infoToUser{
+    text-align: center;
+    font-size: 25px;
+    margin: 2% 0% 0% 18%;
+    font-family: CURSIVE;
+}
+
+.cartH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.showedAnimalInCart{
+    border: 4px double black;
+    padding: 10px;
+    margin: 3% 0% 3% 0%;
+}
+
+.photo{
+    float: left;
+    margin: -0.9% 1% 1% 1%;
+}
+
+.text{
+    text-align: left;
+    margin-left: 35%;
+}
+
+.notSelectedAnimal{
+    font-size: 35px;
+    text-align: center;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+/*
+<span class="animalInfo"> записан в блоке "Питомцы"
+*/
+/**********************Корзина*********************/
+
+/**********************Админка*********************/
+.textOnAdminPage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.adminH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.attention, .infoToAddAnimal{
+    font-weight: 600;
+}
+
+.inputAdminInfo{
+    font-size: 20px;
+}
+
+.uploadPhoto, .textareaAdminInfo{
+    font-size: 18px;
+}
+
+.adminButton{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(250,128,114); /*сам цвет. светлее всех*/
+    box-shadow: 0 -3px rgb(205,85,85) inset; /*тень*/
+    transition: 0.2s;
+}
+.adminButton:hover {
+    background: rgb(238,99,99); /*при наведении. средняя светлость*/
+}
+.adminButton:active {
+    background: rgb(205, 38, 38); /*в момент нажатия. самый темный*/
+    box-shadow: 0 3px rgb(205, 38, 38) inset; /*такой же цвет как в момент нажатия*/
+}
+
+
+/**********************Админка*********************/
+
+/**********************Заказы*********************/
+.ordersH1{
+    text-align: center;
+    font-size: 40px;
+    margin: 2% 0% 0% 0%;
+    font-family: CURSIVE;
+}
+
+.textOnOrdersPage{
+    font-size: 23px;
+    font-family: CURSIVE;
+    margin: 0% 5% 0% 5%;
+}
+
+.ordersTable{
+    text-align: center;
+}
+/**********************Заказы*********************/

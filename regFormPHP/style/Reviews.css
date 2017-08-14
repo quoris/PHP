@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    font-family: Verdana, sans-serif;
+}
+
+header{
+    height: 130px;
+}
+
+#writeReview{
+    height:900px;
+    text-align:left;
+    overflow: visible;
+
+}
+
+header,#writeReview,#showReview{
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding: 1em 0;
+    border: 2px solid black;
+}
+
+h1{
+    font-size:55px;
+    text-align:center;
+
+}
+
+
+p{
+    font-size:25px;
+    margin-left:40px;
+    font-weight:bold;
+}
+
+.point{
+    font-weight:bolder;
+}
+
+#textEnter{
+    height:30px;
+}
+
+#sendReviewButton{
+    width:100px;
+}
+
+#sendReviewButton, #showReviewsButton{
+    height:30px;
+}
+
+.reviews{
+    font-weight:normal;
+}
